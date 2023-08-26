@@ -1,0 +1,164 @@
+.navcont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5%;
+    padding-left: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+ }
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 15px;
+}
+
+.topbar{
+    background-image: url(./81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+}
+
+img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    min-width: 100%;
+}
+
+.title1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title2{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.slogan{
+    margin-top: 3rem;
+    text-align: center;
+}
+.slogan1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.divtitle{
+    margin-bottom: 4rem;
+}
+
+.form{
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+
+        position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+}
+
+.choose-container{
+    margin-top: 3rem;
+    height: 150px;
+    display: grid;
+    position: relative;
+    margin-left: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    justify-content: space-around;
+}
+.choose{
+    text-align: center;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 105px;
+  }
+.btn-info {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(91, 192, 222, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(91, 192, 222, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-info:hover {
+    color: #FFF;
+    background: rgba(91, 192, 222, 0.75);
+    border: 2px solid rgba(91, 192, 222, 0.75);
+  }
+  
+  .center {
+    padding-left: 25%;
+  }
